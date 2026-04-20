@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+}
+
+/* ===== BODY ===== */
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f4f4;
+}
+
+/* ===== HEADER ===== */
+
+header{
+background:#000;
+color:#f4f4f4;
+border-bottom:1px solid grey;
+}
+
+.top-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;
+}
+
+.name-pag{
+font-size:22px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:25px;
+align-items:center;
+}
+
+.menu a{
+color:#f4f4f4;
+text-decoration:none;
+font-size:14px;
+}
+
+.icons-menu{
+display:flex;
+gap:15px;
+}
+
+.icon-box{
+background:#ffffff26;
+padding:8px;
+border-radius:4px;
+cursor:pointer;
+}
+
+/* ===== TITULO ===== */
+
+.title{
+font-size:32px;
+margin:25px;
+}
+
+/* ===== GRID EQUIPOS ===== */
+
+.teams{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:20px;
+}
+
+.team-card{
+border-radius:3px;
+overflow:hidden;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-top{
+padding:40px 20px;
+font-size:30px;
+font-weight:bold;
+}
+
+.team-bottom{
+background:white;
+padding:15px;
+font-size:13px;
+color:#777;
+}
+
+.info{
+display:flex;
+justify-content:space-between;
+margin-top:5px;
+}
+
+/* ===== COLORES EQUIPOS ===== */
+
+.germany{
+background:#1f1f1f;
+color:#fff;
+}
+
+.saudi{
+background:#27a550;
+color:white;
+}
+
+.algeria{
+background:#00a067;
+color:white;
+}
+
+.argentina{
+background:#9cc9f2;
+}
+
+.australia{
+background:#efb500;
+}
+
+.austria{
+background:#ed3d32;
+color:white;
+}
+
+.brazil{
+background:#ffcf25;
+}
+
+.belgium{
+background:#880029;
+color:white;
+}
